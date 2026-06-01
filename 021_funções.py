@@ -1,0 +1,10 @@
+lista = ['Mario', 'Sonic', 'Ryu', 'Snake', 'Fox']
+print(len(lista))
+print(f'{lista[0]}')
+print(f'{lista[-1]}')
+lista.sort()
+print(lista)
+lista.reverse()
+print(lista)
+lista.sort(reverse=True)
+print(lista)

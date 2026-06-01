@@ -1,0 +1,10 @@
+convidados = ['Maria', 'Haída', 'Victor']
+print(convidados)
+print(f'Você foi convidado(a) para um jantar, {convidados[0]}')
+print(f'Você foi convidado(a) para um jantar, {convidados[1]}')
+print(f'Você foi convidado(a) para um jantar, {convidados[2]}')
+print(f'Infelizmente, {convidados[1]}, não poderá comparecer.')
+convidados.remove('Haída')
+convidados.insert(1, 'João Roberto')
+print(convidados)
+print(f'Você foi convidado(a) para um jantar, {convidados[1]}')

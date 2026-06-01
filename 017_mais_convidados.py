@@ -1,0 +1,11 @@
+convidados = ['Maria', 'Jõao Roberto', 'Victor', 'Carol']
+print(f'Você foi convidado(a), {convidados[0]}')
+print(f'Você foi convidado(a), {convidados[1]}')
+print(f'Você foi convidado(a), {convidados[2]}')
+print(f'Você foi convidado(a), {convidados[3]}')
+convidados.insert(0, 'Leandro')
+print(f'Você foi convidado(a), {convidados[0]}')
+convidados.insert(3, 'Lucas')
+print(f'Você foi convidado(a), {convidados[3]}')
+convidados.append('Júlia')
+print(f'Você foi convidado(a), {convidados[-1]}')
