@@ -1,3 +1,6 @@
+from printing_functiona import printing_functions, printed_functions
+
+
 def print_models(unprinted_models, completed_models):
     while unprinted_models:
         """Simula a impressão de modelos em 3D"""
