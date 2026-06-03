@@ -1,4 +1,5 @@
 def reajuste(sal):
+    """Calcula o aumento de salário"""
     if sal <= 1621:
         novo = sal + (sal * 0.15)
     else:
