@@ -20,11 +20,13 @@ class Restaurant:
 class IceCreamStand(Restaurant):
     """Simula uma soreveteria"""
 
-    def __init__(self, restaurant_name, cuisine_type):
+    def __init__(self, restaurant_name, cuisine_type='Sorvetes', flavors=None):
         """Herda os atributos de Restaurant"""
         super().__init__(restaurant_name, cuisine_type)
-        self.flavors = ['baunilha', 'morango', 'chocolate']
-
+        if flavors is None:
+            self.flavors = ['Baunilha', 'Chocolate', 'Morango']
+        else:
+            self.flavors = flavors
 
     def describe_flavors(self):
         print('Os sabores disponíveis são: ')
@@ -34,4 +36,5 @@ class IceCreamStand(Restaurant):
 
 my_ice_cream = IceCreamStand('icy', 'gelato')
 my_ice_cream.describe_restaurant()
-my_ice_cream.describe_flavors()
+sabores = ['limão', 'manga', 'coco']
+my_ice_cream.describe_flavors(sabores)
