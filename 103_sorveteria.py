@@ -34,7 +34,6 @@ class IceCreamStand(Restaurant):
             print(f'\t{flavor.title()}')
 
 
-my_ice_cream = IceCreamStand('icy', 'gelato')
-my_ice_cream.describe_restaurant()
 sabores = ['limão', 'manga', 'coco']
-my_ice_cream.describe_flavors(sabores)
+my_ice_cream = IceCreamStand('icy', 'gelato', flavors=sabores)
+my_ice_cream.describe_flavors()
